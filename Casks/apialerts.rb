@@ -14,22 +14,22 @@ cask "apialerts" do
   on_macos do
     on_intel do
       url "https://github.com/apialerts/apialerts-cli/releases/download/v#{version}/apialerts-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "bb5c78457cac8d99845d39870b0d452d2fd3866a78c91d8622402f57dd7a3590"
+      sha256 "6f8ce9fbb80c8677d5f91282ea835ab61a658f942f03ca779250766b6bb4d18a"
     end
     on_arm do
       url "https://github.com/apialerts/apialerts-cli/releases/download/v#{version}/apialerts-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "e91325d355091874c17d7631928415b7faf10d654f94f4ba8d236cc3a7543920"
+      sha256 "539df0a18a41a06098789ca3d67d1b8c026717ed882b6c56c1ea231038fae636"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/apialerts/apialerts-cli/releases/download/v#{version}/apialerts-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "a22fa739773fd473d33325c31164f25b9b8a4ac44ec46cb56114c1e646e00c33"
+      sha256 "19e82440d23ef3ad69b65de140d609fe2fea579013d49bdff0f475eb5e5dc7b6"
     end
     on_arm do
       url "https://github.com/apialerts/apialerts-cli/releases/download/v#{version}/apialerts-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "4e9b04a621fe9ac854fe12b172bbd4b758cd4371578cd74f6ebb191854902962"
+      sha256 "f9b84a5c5c00ea69d4c9d7c8acecd6f69be58b0a2c3c26f70f52ba68b833c4c8"
     end
   end
 
