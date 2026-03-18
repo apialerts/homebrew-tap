@@ -3,7 +3,7 @@ cask "apialerts" do
   name "apialerts"
   desc "API Alerts CLI — send events from your terminal"
   homepage "https://apialerts.com"
-  version "1.1.0"
+  version "1.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "apialerts" do
   on_macos do
     on_intel do
       url "https://github.com/apialerts/cli/releases/download/v#{version}/cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "e0466bbfa557ba106c1e64127b69ace81e2b34f4138ce2b9de9b6d2c56743cb4"
+      sha256 "a21b6e096d2d1a90ac7966c868691360ab05e9adfbcb0106230fdbeac30a2f43"
     end
     on_arm do
       url "https://github.com/apialerts/cli/releases/download/v#{version}/cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "88938cc6f7435b226d31e2bb0c85ecd2b4b9e94b6279242e2122d0a08416ac28"
+      sha256 "6d1d5bdabad369c07cd7f2897ca0b06665975be5d9a8c278629f3c02e17ffd99"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/apialerts/cli/releases/download/v#{version}/cli_#{version}_linux_amd64.tar.gz"
-      sha256 "27c194009a2559ff7ce5482aaeebba96147d6e016447926aa82a2f8450a278b2"
+      sha256 "0effb2f4f161eada4b4cca5f23a95d027b88401c0fc374d450d67115c548ee43"
     end
     on_arm do
       url "https://github.com/apialerts/cli/releases/download/v#{version}/cli_#{version}_linux_arm64.tar.gz"
-      sha256 "14465a027af460d90bc1c71bc9ce5a350e717e8a424287ea4aa10d38c56d9c53"
+      sha256 "87e20773a57714629243c45f3009f36152b7077be5c63cf0d2efddad021248e7"
     end
   end
 
